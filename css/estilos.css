@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    
+}
+
+/* Nav */  /* Nav */  /* Nav */  /* Nav */ 
+
+
+nav {
+    background-color: rgb(69, 68, 68);
+    color: aliceblue;
+    display: flex;
+    justify-content: left;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    
+}
+/* Nav */  /* Nav */ /* Nav */ /* Nav */ 
+
+    #base {
+    display: flex;
+    margin-left: 70px;
+   }
+   
+   
+   #formtexto {
+     position:absolute;
+     top: 69px;
+     right:70px;
+   }
+
+   #textoencripta {
+    text-align: center;
+    margin: 50px;
+   }
+   
+   #form1 {
+       width: 700px;
+       height: 250px;
+       display: flex;
+   
+   }
+
+
+   #form1::placeholder {
+    text-align: center;
+   }
+   
+   #form2 {
+       width: 350px;
+       height: 550px;
+   }
+
+   #form2::placeholder {
+    text-align: center;
+    justify-content: center;
+   }
+   
+
+
+.xxx {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 200px;
+    padding: 10px;
+    background-color: rgba(106, 112, 198, 0.942);
+    border-radius: 24px;
+    border:none;
+    color: rgb(255, 255, 255);
+    border-color: rgb(36, 36, 36);
+
+}
+
+#botones {
+position: absolute;
+left: 15%;
+top: 70%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(37, 36, 36);
+}
+ #textofooter {
+    color: #E5E5E5;
+    top: 5px;
+    text-align: center;
+    
+ }
+
+ /* Redes */ 
+
+ #instagram {
+    width: 20px;
+    height: 20px;
+    fill: white;
+ }
+ #linkedin {
+    width: 20px;
+    height: 20px;
+    fill: white;
+ }
+
+ #lista {
+    display: flex;
+    list-style:none;
+    padding: 1;
+    justify-content: right;
+ }
